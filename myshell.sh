@@ -1,3 +1,3 @@
 echo "i am $(uname -r)"
 echo "this is my shell"
-echo "jenkins automation"
+echo "jenkins automation using webhook"
