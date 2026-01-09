@@ -1,8 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('Run Script') {
+        stage('Run shell') {
             steps {
+                sh 'chmod +x myshell.sh'
                 sh './myshell.sh'
             }
         }
